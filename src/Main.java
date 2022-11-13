@@ -61,5 +61,12 @@ public class Main {
         System.out.println("За 3 дня машина производит бутылок " + numberOfBottles3 + " штук");
         int numberOfBottles4 = efficiency * 24 * 60 * 30;
         System.out.println("За месяц (30 дней) машина производит бутылок " + numberOfBottles4 + " штук");
+        //Задача 5
+        System.out.println(" ");
+        System.out.println("Задача 5");
+        byte totalClasses = 120 / (2 + 4); //количество классов в школе
+        int totalCansOfWhitePaint = totalClasses * 2;
+        int totalCansOfBrownPaint = totalClasses * 4;
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalCansOfWhitePaint + " банок белой краски и " + totalCansOfBrownPaint + " банок коричневой краски");
     }
 }
