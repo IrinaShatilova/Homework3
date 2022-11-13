@@ -10,11 +10,33 @@ public class Main {
         System.out.println("Значение переменной pear с типом byte равно " + pear);
         short peach = 3;
         System.out.println("Значение переменной peach с типом short равно " + peach);
-        long plum = 15;
+        long plum = 15L;
         System.out.println("Значение переменной plum с типом long равно " + plum);
         float plumWeight = 35.5f;
         System.out.println("Значение переменной plumWeight с типом float равно " + plumWeight);
         double appleWeight = 5.5;
         System.out.println("Значение переменной appleWeight с типом double равно " + appleWeight);
+        //Задача 2
+        System.out.println(" ");
+        System.out.println("Задача 2");
+        double boxWeight1 = 27.12;
+        System.out.println("вес коробки 1 = " + boxWeight1);
+        long quantityOfCells = 987678965549L;
+        System.out.println("количество ячеек = " + quantityOfCells);
+        float boxWeight2 = 2.786f;
+        System.out.println("вес коробки 2 = " + boxWeight2);
+        char outputTheCorrespondingSymbol = 569;
+        System.out.println("вывести символ, соответсвующий значению 569 = " + outputTheCorrespondingSymbol);
+        short answerNumber1 = -159;
+        System.out.println("ответ номер 1 = " + answerNumber1);
+        int quantityOfBox = 27897;
+        System.out.println("количество коробок на складе = " + quantityOfBox);
+        byte boxWeight3 = 67;
+        System.out.println("вес коробки 3 = " + boxWeight3);
+        boolean totalBoxWeight = (boxWeight1 + boxWeight2 + boxWeight3) > 100;
+        double totalBoxWeight1 = (boxWeight1 + boxWeight2 + boxWeight3);
+        System.out.println("Верно ли утверждение, что общий вес 3х коробок > 100? Ответ - " + totalBoxWeight + ", так как общий вес составляет " + totalBoxWeight1);
+
+
     }
 }
