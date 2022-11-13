@@ -46,6 +46,20 @@ public class Main {
         long totalNumberOfStudents = numberOfStudents1 + numberOfStudents2 + numberOfStudents3;
         long NumberOfSheetsToEach = totalNumberOfSheets / totalNumberOfStudents;
         System.out.println("На каждого ученика рассчитано " + NumberOfSheetsToEach + " листов бумаги");
-
+        //Задача 4
+        System.out.println(" ");
+        System.out.println("Задача 4");
+        System.out.println("Дано: За 2 минуты машина производит бутылок 16 штук");
+        System.out.println("Найти: Сколько бутылок производит машина: за 20 минут, за сутки, за 3 дня и за месяц?");
+        System.out.println("Ответ:");
+        byte efficiency = 16 / 2; //производительность за минуту
+        int numberOfBottles1 = efficiency * 20;
+        System.out.println("За 20 минут машина производит бутылок " + numberOfBottles1 + " штук");
+        int numberOfBottles2 = efficiency * 24 * 60;
+        System.out.println("За сутки машина производит бутылок " + numberOfBottles2 + " штук");
+        int numberOfBottles3 = efficiency * 24 * 60 * 3;
+        System.out.println("За 3 дня машина производит бутылок " + numberOfBottles3 + " штук");
+        int numberOfBottles4 = efficiency * 24 * 60 * 30;
+        System.out.println("За месяц (30 дней) машина производит бутылок " + numberOfBottles4 + " штук");
     }
 }
