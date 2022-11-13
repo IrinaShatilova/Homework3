@@ -36,7 +36,16 @@ public class Main {
         boolean totalBoxWeight = (boxWeight1 + boxWeight2 + boxWeight3) > 100;
         double totalBoxWeight1 = (boxWeight1 + boxWeight2 + boxWeight3);
         System.out.println("Верно ли утверждение, что общий вес 3х коробок > 100? Ответ - " + totalBoxWeight + ", так как общий вес составляет " + totalBoxWeight1);
-
+        //Задача 3
+        System.out.println(" ");
+        System.out.println("Задача 3");
+        byte numberOfStudents1 = 23;
+        byte numberOfStudents2 = 27;
+        byte numberOfStudents3 = 30;
+        short totalNumberOfSheets = 480;
+        long totalNumberOfStudents = numberOfStudents1 + numberOfStudents2 + numberOfStudents3;
+        long NumberOfSheetsToEach = totalNumberOfSheets / totalNumberOfStudents;
+        System.out.println("На каждого ученика рассчитано " + NumberOfSheetsToEach + " листов бумаги");
 
     }
 }
