@@ -95,5 +95,26 @@ public class Main {
         System.out.println(numberOfDays2 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 500 грамм");
         int averageNumberOfDays = (numberOfDays1 + numberOfDays2) / 2;
         System.out.println("В среднем количество дней на похудение составит - " + averageNumberOfDays);
+        //Задача 8
+        System.out.println(" ");
+        System.out.println("Задача 8");
+        int monthlySalaryMasha = 67760;
+        int monthlySalaryDenis = 83690;
+        int monthlySalaryKristina = 76230;
+        double yearSalaryMasha = monthlySalaryMasha * 12;
+        double yearSalaryDenis = monthlySalaryDenis * 12;
+        double yearSalaryKristina = monthlySalaryKristina * 12;
+        double monthlySalaryMasha1 = monthlySalaryMasha + monthlySalaryMasha * 0.1;
+        double monthlySalaryDenis1 = monthlySalaryDenis + monthlySalaryDenis * 0.1;
+        double monthlySalaryKristina1 = monthlySalaryKristina + monthlySalaryKristina * 0.1;
+        double yearSalaryMasha1 = monthlySalaryMasha1 * 12;
+        double yearSalaryDenis1 = monthlySalaryDenis1 * 12;
+        double yearSalaryKristina1 = monthlySalaryKristina1 * 12;
+        double salaryDifferenceMasha = yearSalaryMasha1 - yearSalaryMasha;
+        double salaryDifferenceDenis = yearSalaryDenis1 - yearSalaryDenis;
+        double salaryDifferenceKristina = yearSalaryKristina1 - yearSalaryKristina;
+        System.out.println("Маша теперь получает " + monthlySalaryMasha1 + " рублей в месяц. Годовой доход вырос на " + salaryDifferenceMasha + " рублей");
+        System.out.println("Денис теперь получает " + monthlySalaryDenis1 + " рублей в месяц. Годовой доход вырос на " + salaryDifferenceDenis + " рублей");
+        System.out.println("Кристина теперь получает " + monthlySalaryKristina1 + " рублей в месяц. Годовой доход вырос на " + salaryDifferenceKristina + " рублей");
     }
 }
