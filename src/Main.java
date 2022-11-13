@@ -82,7 +82,18 @@ public class Main {
         double weightOfOneEgg = 70;
         double totalBreakfastWeight = numberOfBananas * weightOfOneBanana + numberOfMilk * unitWeightOfMilk + numberOfIceCreamBriquettes * weightOfOneIceCreamBriquette + numberOfEggs * weightOfOneEgg;
         double totalBreakfastWeightKg = totalBreakfastWeight / 1000;
-        System.out.println("Овет: Вес спорт-завтрака будет " + totalBreakfastWeight + " грамм, что составляет " + totalBreakfastWeightKg + " килограмма");
-
+        System.out.println("Ответ: Вес спорт-завтрака будет " + totalBreakfastWeight + " грамм, что составляет " + totalBreakfastWeightKg + " килограмма");
+        //Задача 7
+        System.out.println(" ");
+        System.out.println("Задача 7");
+        short totalWeight = 7 * 1000;
+        short firstWeightPerDay = 250;
+        short secondWeightPerDay = 500;
+        int numberOfDays1 = totalWeight / firstWeightPerDay;
+        int numberOfDays2 = totalWeight / secondWeightPerDay;
+        System.out.println(numberOfDays1 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм");
+        System.out.println(numberOfDays2 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 500 грамм");
+        int averageNumberOfDays = (numberOfDays1 + numberOfDays2) / 2;
+        System.out.println("В среднем количество дней на похудение составит - " + averageNumberOfDays);
     }
 }
