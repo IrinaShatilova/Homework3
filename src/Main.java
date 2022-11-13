@@ -68,5 +68,21 @@ public class Main {
         int totalCansOfWhitePaint = totalClasses * 2;
         int totalCansOfBrownPaint = totalClasses * 4;
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalCansOfWhitePaint + " банок белой краски и " + totalCansOfBrownPaint + " банок коричневой краски");
+        //Задача 6
+        System.out.println(" ");
+        System.out.println("Задача 6");
+        double numberOfBananas = 5;
+        double weightOfOneBanana = 80;
+        double numberOfMilk = 200;
+        double unitWeightOfMilk = 105.0/100.0; // проверить
+        System.out.println("удельный вес молока в граммах " + unitWeightOfMilk);
+        double numberOfIceCreamBriquettes = 2;
+        double weightOfOneIceCreamBriquette = 100;
+        double numberOfEggs = 4;
+        double weightOfOneEgg = 70;
+        double totalBreakfastWeight = numberOfBananas * weightOfOneBanana + numberOfMilk * unitWeightOfMilk + numberOfIceCreamBriquettes * weightOfOneIceCreamBriquette + numberOfEggs * weightOfOneEgg;
+        double totalBreakfastWeightKg = totalBreakfastWeight / 1000;
+        System.out.println("Овет: Вес спорт-завтрака будет " + totalBreakfastWeight + " грамм, что составляет " + totalBreakfastWeightKg + " килограмма");
+
     }
 }
